@@ -1,0 +1,16 @@
+name: SCode
+version: '1.2'
+main: papka2017.scode.SCode
+api-version: '1.16'
+authors: [Papka2017]
+permissions:
+  use:
+    permission: scode.use
+    permission-message: "У вас нет прав для использования этой команды."
+  reload:
+    permission: scode.reload
+    permission-message: "У вас нет прав для использования этой команды."
+commands:
+  code:
+    usage: /code
+    permission: scode.use
