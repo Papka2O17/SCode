@@ -45,7 +45,6 @@ public class CodeCommand implements CommandExecutor {
         boolean isPromo = !command.getName().equalsIgnoreCase("code");
 
         if (isPromo) {
-            // Убираем точку из промокода, если она есть
             code = command.getName().replace(".", "");
         } else {
             if (args.length == 0) {
